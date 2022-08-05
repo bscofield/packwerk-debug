@@ -12,10 +12,10 @@ exclude:
 - "vendor/**/*"
 
 # Patterns to find package configuration files
-package_paths:
-- "."
-- "packages/**/"
-- "app/**/"
+# package_paths:
+# - "."
+# - "packages/**/"
+# - "app/**/"
 
 cache: true
 
