@@ -23,3 +23,7 @@ module Foodie
     config.eager_load_paths << "#{root}/packages"
   end
 end
+
+Rails.autoloaders.main.collapse([
+  "packages/*/models"
+])
